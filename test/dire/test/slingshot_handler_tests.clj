@@ -30,7 +30,7 @@
 (with-handler!
   #'test-function
   java.lang.IllegalArgumentException
-  (fn [e & args] (.getMessage e)))
+  (fn [e & args] (.getMessage ^Exception e)))
 
 ;; Test slingshot match against predicate function
 (with-handler!

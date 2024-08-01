@@ -7,6 +7,7 @@
                  [org.clojure/core.incubator "0.1.4"]
                  [slingshot "0.12.2"]
                  [robert/hooke "1.3.0"]]
+  :eastwood {:exclude-linters [:def-in-def :unused-ret-vals]}
   :profiles {:dev {:dependencies [[midje "1.10.10"]
                                   [bultitude "0.2.8"]]}}
   :plugins [[codox "0.10.8"]
