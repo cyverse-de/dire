@@ -1,5 +1,7 @@
 # dire <a href="https://travis-ci.org/MichaelDrogalis/dire"><img src="https://api.travis-ci.org/MichaelDrogalis/dire.png" /></a>
 
+Forked from https://github.com/MichaelDrogalis/dire.
+
 Decomplect error logic. Error handling, pre/post conditions and general hooks for Clojure functions.
 
 Ships with two flavors:
@@ -11,15 +13,9 @@ Ships with two flavors:
 
 Available on Clojars:
 
-    [dire "0.5.4"]
+    [org.cyverse/dire "0.5.5"]
 
 ## API
-
-Check out the Codox API docs [here](http://michaeldrogalis.github.com/dire/).
-
-## Relevant Blog Posts
-- [try/catch complects: We can do so much better](http://michaeldrogalis.tumblr.com/post/40181639419/try-catch-complects-we-can-do-so-much-better)
-- [Beautiful Separation of Concerns](http://michaeldrogalis.tumblr.com/post/46560874730/beautiful-separation-of-concerns)
 
 ## Evaluation Order
 1. Eager Pre-hooks
@@ -396,4 +392,3 @@ Sometimes it is desirable to check for any one of a number of exceptions:
 Copyright © 2012 Michael Drogalis
 
 Distributed under the Eclipse Public License, the same as Clojure.
-
