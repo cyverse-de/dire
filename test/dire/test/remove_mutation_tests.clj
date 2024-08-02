@@ -1,4 +1,4 @@
-(ns dire.test.remove-functions-tests
+(ns dire.test.remove-mutation-tests
   (:require [midje.sweet :refer :all]
             [dire.core :refer :all]
             [slingshot.slingshot :refer :all]))
@@ -54,4 +54,3 @@
 (fact (strip (with-out-str (test-fn 10 2))) => "")
 
 (fact (test-fn 10 2) => 5)
-
