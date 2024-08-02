@@ -1,4 +1,4 @@
-(defproject org.cyverse/dire "0.5.5"
+(defproject org.cyverse/dire "0.5.6-SNAPSHOT"
   :description "Erlang-style supervisor error handling for Clojure"
   :url "https://github.com/cyverse-de/dire"
   :license {:name "Eclipse Public License"
