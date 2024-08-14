@@ -1,5 +1,5 @@
 (ns dire.core
-  (:require [clojure.core.incubator :refer [dissoc-in]]
+  (:require [medley.core :refer [dissoc-in]]
             [robert.hooke :refer [add-hook remove-hook]]
             [slingshot.slingshot :refer [try+ throw+]]))
 
@@ -399,4 +399,3 @@
   (remove-wrap-hook task-var f)
   (remove-supervise task-var)
   (hook-supervisor-to-fn task-var))
-
