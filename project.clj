@@ -3,7 +3,7 @@
   :url "https://github.com/cyverse-de/dire"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.11.3"]
+  :dependencies [[org.clojure/clojure "1.11.4"]
                  [slingshot "0.12.2"]
                  [robert/hooke "1.3.0"]
                  [dev.weavejester/medley "1.8.1"]]
